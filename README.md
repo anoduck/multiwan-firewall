@@ -2,6 +2,9 @@
 
 Not so much a firewall, but a script to setup iptables and ip routes.
 
+Intended to assist https://github.com/lstein/Net-ISP-Balance
+Because it is boss...
+
 -----
 
 Blah, Blah, Blah.
