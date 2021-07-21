@@ -1,0 +1,11 @@
+[Unit]
+Description=Router Firewall by Me
+ConditionFileIsExecutable=/etc/network/firewall.sh
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/etc/network/firewall.sh
+
+[Install]
+WantedBy=multi-user.target
